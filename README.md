@@ -1,16 +1,21 @@
 # Worksheet-15
-Worksheet 15 Do a Swirl tutorial in Rstudio
+Worksheet 16: Do codeschool TryR chapter 6
 
-Open Rstudio, install the swirl package using the install.packages() function and then load the swirl package using the library() command.
+Why do you think is it more practical to have data in a data.frame then in individual vectors?
 
-Open swirl by typing swirl(). When swirl asks you what course you want to do, choose 1: R Programming. Then there will be the choice between 15 different tutorials. Pick one that looks useful to you. I would not start with the apply functions, but any other tutorial is fine.
+To avoid trouble,it is better if we can tie all these variables together in a single data structure. And you can do that by using data.frame
 
-Make notes here about the most important things you learn in the tutorial you chose:
+You've learned three ways to extract a column from a data.frame. Which are they?
 
-I chose to go over the basic building blocks and it was a similar tutuorial to the online one. It was mainly just showing how to do the basic functions in R Studio.
+nameofdata.frame [[number of column]] 
+nameofdata.frame [[column name]] 
+use a shorthand notation. for example if you are tryign to get the prices column you can use nameofdata.frame$prices the $ is a shorthand notation so you don't have to use the brackets
 
-Awesome! I hope you like swirl and come back to it later!
+The read.table() and read.csv() functions are extremely useful. Which are the different arguments for these functions used in the tutorial?
+For files that use separator strings other than commas, you can use the read.table function.
 
-Name:Enxhi Tahiraj	
+Great. Almost done with all the codeschool stuff!
 
-Date:11/06/16# Worksheet-16
+Name: Enxhi Tahiraj 	
+
+Date: 11/06/2016
